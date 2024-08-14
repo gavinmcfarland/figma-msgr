@@ -3,7 +3,7 @@
 Messenger is a simple message handler for Figma.
 
 > [!NOTE]
-> This hasn't been packaged yet and is just an learning exploration for me.
+> This hasn't been packaged yet and is mainly a learning experience for me.
 
 ### Create an instance of Msngr
 
