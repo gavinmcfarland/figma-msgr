@@ -37,7 +37,7 @@ msngr.emit("greet", "Hello world!");
 
 ### Awaiting a response
 
-After emitting a message you can await a response
+After emitting a message you can await a response from the other context.
 
 ```ts
 let res = await msngr.emit("greet");
