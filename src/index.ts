@@ -7,7 +7,7 @@ type Opts = {
 	};
 };
 
-export class Msngr {
+export class Msgr {
 	pluginId: string;
 	constructor(opts?: Opts) {
 		this.pluginId = opts?.pluginId ? opts.pluginId : "*";
