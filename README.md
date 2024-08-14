@@ -1,16 +1,16 @@
-# Msngr
+# Msgr
 
 Messenger is a simple message handler for Figma.
 
 > [!NOTE]
 > This hasn't been packaged yet and is mainly a learning experience for me.
 
-### Create an instance of Msngr
+### Create an instance of Msgr
 
-In both the UI and main code you'll need to create an instance of Msngr.
+In both the UI and main code you'll need to create an instance of Msgr.
 
 ```ts
-const msngr = new Msngr();
+const msgr = new Msgr();
 ```
 
 ### Defining handlers
@@ -18,7 +18,7 @@ const msngr = new Msngr();
 Define your event handlers.
 
 ```ts
-const msngr = new Msngr({ handlers });
+const msgr = new Msgr({ handlers });
 
 const handlers = {
   greet(value: any) {
@@ -32,7 +32,7 @@ const handlers = {
 Calling emit invokes the event handler for the matching event name in either UI or main context.
 
 ```ts
-msngr.emit("greet", "Hello world!");
+msgr.emit("greet", "Hello world!");
 ```
 
 ### Awaiting a response
@@ -40,5 +40,5 @@ msngr.emit("greet", "Hello world!");
 After emitting a message you can await a response from the other context.
 
 ```ts
-let res = await msngr.emit("greet");
+let res = await msgr.emit("greet");
 ```
