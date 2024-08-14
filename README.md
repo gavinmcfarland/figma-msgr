@@ -5,9 +5,9 @@ Messenger is a simple message handler for Figma.
 > [!NOTE]
 > This hasn't been packaged yet and is just an learning exploration for me.
 
-### Create an instance of Msgr
+### Create an instance of Msngr
 
-In both the UI and main code you'll need to create an instance of Msgr.
+In both the UI and main code you'll need to create an instance of Msngr.
 
 ```ts
 const msngr = new Msngr();
